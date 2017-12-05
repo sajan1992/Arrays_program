@@ -9,12 +9,12 @@ int main()
 
 	printf("Unsorted Array \n");
 	for(i =0; i<5; i++)
-		printf("%d -> %d",i,arr[i]);
+		printf("%d -> %d\n",i,arr[i]);
 
-	for(j =0; j<9; j++)
+	for(j =0; j<5; j++)
 	{
 		s=j;
-		for(i =j+1;i<10;i++)
+		for(i =j+1;i<5;i++)
 		{
 			if(arr[i]<arr[s])
 				s=i;
@@ -25,5 +25,5 @@ int main()
 	}
 	printf("Sorted Array \n");
 	for(i = 0;i<5;i++)
-		printf("%d -> %d",i,arr[i]);
+		printf("%d -> %d\n",i,arr[i]);
 }
